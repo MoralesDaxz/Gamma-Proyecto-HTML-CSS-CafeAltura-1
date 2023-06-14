@@ -1,0 +1,1068 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*---------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, summary,
+time, mark, audio, video
+{
+margin: 0;
+padding: 0;
+border: 0;
+ /* 1rem = 16px
+    1px  = 10px
+    para declarar rem en el documento entonces reduciremos a 62.5% el tamaño de letra raiz*/
+}
+a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+body
+{
+    font-family: 'Outfit', sans-serif;
+}
+#contenBody
+{
+    min-width: 1280px; /**********/
+}
+header
+{
+    padding: 12px 40px;
+    background-color: #2B2A2B;
+    min-width: 1280px; /*Dado el caso podemos darle auto, sin embargo el SVG de logo se vera afectado*/
+    height: 64px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxHeader
+{
+    font-weight: 400;
+    font-size: 23.4628px;
+    line-height: 35px;
+    width: 186px;
+    height: 36px;
+    opacity: 0.86;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.33px;
+}
+.boxImg
+{
+    width: 20.53px;
+    height: 24.93px;
+}
+
+.wrapHeader
+{
+    display: flex;
+    justify-content: space-between;
+    margin:16px auto 16px auto;
+    width: 512px;
+    height: 32px;
+    padding: 0px;
+    gap: 16px;
+}
+.wrapHeader a
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* #wrapLink1
+{
+    width: 61px;
+    height: 32px;
+}
+#wrapLink2
+{
+    width: 89px;
+    height: 32px;
+}
+#wrapLink3
+{
+    width: 111px;
+    height: 32px;
+}
+#wrapLink4
+{
+    width: 112px;
+    height: 32px;
+}  
+#wrapLink5
+{
+    width: 75px;
+    height: 32px;
+}
+ Para futuras modificaciones personalizadas de cada enlace*/
+
+.frmHeader
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.frmIcon
+{
+    margin: 23px 11px 23px auto;
+    width: 24px;
+    height: 24px;
+}
+.frmTlf
+{
+    width: max-content; 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 24px;
+}
+.frmInicio
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    margin: 12px auto 12px auto;   
+    background-color: #515051;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+.carImg
+{
+    width: 24px;
+    height: 24px;
+    margin: 20px auto 20px 78.05px;
+}
+/*------------------Finaliza HEADER----------------*/
+#contenMain
+{
+    min-width: 1280px; /**********/
+    position: relative;
+}
+.mainSection1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    left: 40px;
+    right: 40px;
+    background-color: #E3DED7;
+    height: 486px;
+    min-width: 1280px; /**********/
+    padding: 48px 40px;
+}
+.artSection1
+{
+    display: block;
+    margin:127px auto 127px 0;
+}
+#text1
+{
+    color: #2A5B45;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: 588px;
+    height: 24px;
+}
+#text2
+{
+    color:#000000;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    width: 588px;
+    height: 88px;
+}
+#text3
+{
+    color: #111827;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    width: 588px;
+    height: 32px;
+}  
+#linkArticle
+{
+    display: flex;
+    margin-top: 16px;
+} 
+#mainLink1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1815;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 168px;
+    height: 40px;
+}
+#mainLink2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A5B45;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 137px;
+    height: 40px;
+    margin-left: 16px;
+}
+#mainImg
+{
+   margin: auto 0px auto 24px;
+   width: 588px;
+   height: 390px;
+}
+#mainImg img
+{
+    padding: 0;
+    background-size: cover;
+}
+/*------------------Finaliza Section1 - MAIN----------------*/
+#cardSection2
+{
+    background-image:url(/img/Cards.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 1280px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+.cardTitle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cardTitle h2
+{
+    font-style: normal;  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+#cardWraps
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+    top:100px;
+    gap:24px;
+}
+#wrap1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 316px;
+    height: 232px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+#wrap1 img
+{
+    margin-top: 24px;
+    width: 64px;
+    height: 64px;  
+}
+.wrapPrf1 /*Reutilizado en:  parrafos de cardWraps*/
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2A2B;
+    height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.wrapPrf2 /*Reutilizado en:  parrafos de cardWraps*/
+{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+    width: 268px;
+    height: 64px;
+}
+#wrap2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 316px;
+    height: 232px;
+    border-radius: 8px;
+    text-align: center;
+}
+#wrap2 img
+{
+    margin-top: 40px;
+    width: 64px;
+    height: 64px;  
+}
+#wrap3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 316px;
+    height: 232px;
+    border-radius: 8px;
+    text-align: center;
+}
+#wrap3 img
+{
+    margin-top: 32px;
+    width: 64px;
+    height: 64px;  
+}
+/*<!-------------Finaliza Section2 - CARD WRAPPER - Main - ------->*/
+#contenNew
+{
+    min-width: 1280px;
+}
+.titleNew
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+}
+.coffeBags
+{
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 44px;
+}
+.bagsImg
+{
+    width: 219.39px;
+    height: 219.39px;
+}
+.bags1Prf
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    margin-top:24px;
+    margin-bottom: 12px;
+}
+.bags2Prf
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.bagsLink
+{ 
+    width: 44px;
+    height: 16px;
+    text-decoration: none;
+    background: rgba(42, 91, 69, 0.7); 
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.bagsBorde
+{
+    width: 282px;
+    height: 391.39px;
+    border: 1px solid #E3DED7;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 24px;
+   
+}
+.bagsHover:hover
+{   
+    background-color: #E3DED7;
+}
+.bagsHover:hover a
+{
+   background-color: #2A5B45; 
+   cursor: pointer;
+}  
+.newBottom
+{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.bottPrf
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #000000;    
+}
+.bottImg
+{
+    width:18px;
+    height: 8px;
+    justify-items: center;
+}
+/*-------------Finaliza Section - CARD NEW - Main------------*/
+.contenFaq
+{
+    background-color: #2A5B45;
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleFaq
+{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.contenLabels
+{
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    gap:16px
+}
+.labelFaq1
+{
+    width: 668px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.labelFaq2
+{
+    width: 668px;
+    background-color: #F7F5F3;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.labelFaq3
+{
+    width: 668px;
+    background-color: #F7F5F3;
+    border-radius: 10px;
+    padding: 24px;
+    gap: 16px;
+}
+.labelH
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2A2B;
+}
+.lineFaq
+{
+    background-color: #E3DED7;
+    width: 100%;
+    height: 1px;
+}
+.boxH3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labelPrf
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2B2A2B;
+}
+.labelBott
+{
+    width: 178px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:19px;
+    margin-top: 28px;
+    margin-bottom: 52px;
+}
+.lbottPrf 
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/*-------------Finaliza Section - CARD NEW - Main------------*/
+#contenFeature
+{
+    min-width: 1280px;
+    background-color: #F7F5F3;
+    padding: 44.61px 40px 45.39px 40px;
+}
+#featureBox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.featureArt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featureH3
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+    margin-bottom: 16px;
+}
+.featurePrf
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+    width: 457px;
+    height: 32px;
+    margin-bottom: 20px;  
+}
+.fboxTxt
+{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.featureTxt
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+.featureImg
+{
+    width: 588px;
+    height: 390px;
+}
+/*-------------Finaliza Section - Feature - Main------------*/
+#splitConten
+{
+   min-width: 1280px; 
+   height: 552px;
+   background-color: #E3DED7;
+}
+.splitBox
+{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 40px 0px 40px;
+}
+.splitArt
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 116px;
+    margin-right: 24px;
+}
+
+.splitH3
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+#splitPrf1
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280; 
+    margin-bottom: 32px;
+}
+#splitPrf2
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280; 
+    margin-bottom: 24px;
+    
+}
+#splitPrf3
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280; 
+    
+}
+#splitPrf4
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280; 
+    margin-bottom: 19px;
+}
+.boxPrf5
+{
+    display: flex;
+    margin-bottom: 16px;
+    gap:15px;
+}
+.boxPrf5 img
+{
+    width: 18px; height: 18px;
+}
+#splitPrf5
+{
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+    width: 588px;
+    height: 24px;  
+}
+.boxPrf6
+{
+    display: flex;
+    gap:15px;
+}
+.boxPrf6 img
+{
+    width: 18px; height: 18px;
+}
+#splitPrf6
+{
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+    width: 588px;
+    height: 24px;
+    
+    
+}
+#splitPrf7
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+    margin-top: 28px;
+}
+#splitPrf7 a
+{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+    line-height:24px;
+    text-decoration: underline;
+}
+#contenForm
+{   
+    background-color: #FFFFFF;
+    width: 588px;
+    height: 552px;
+}
+.boxForm
+{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 32px 32px 48px;
+}
+.boxForm label
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color:#374151;
+}
+.formInput1
+{
+    width: 470px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+.formInput1:focus, .formInput2:focus,.formInput3:focus,.formInput4:focus
+{
+outline: none;
+}
+.formInput2
+{
+    width: 470px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+#selectForm
+{
+    color:#374151;
+    outline: none;/*quitar borde negro de input*/
+    border:none;
+}
+.formInput3
+{
+    border:none;
+}
+.boxSelect
+{
+    display: flex;
+    align-items: center;
+    border: solid 1px #D1D5DB;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    width: 470px;
+    height: 34px;
+    margin-bottom: 24px;
+} 
+.formInput4
+{
+    width: 470px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+.formCheck
+{
+margin-top: 24px;
+display: flex;
+align-items: center;
+}
+.ltextForm
+{
+    color: #374151; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.ltextForm a
+{
+    color: #374151;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+.enviarForm
+{
+    width: 90px;
+    height: 40px;
+    padding: 12px 24px;
+    background: #2A5B45;
+    border-radius: 4px;
+    border-color: #2A5B45;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    bottom: 0px;
+    border-style: hidden;
+    cursor: pointer;
+    margin-top: 28px;
+}
+/*-------------Finaliza Section - Form - ***Main***------------*/
+.contenFooter
+{
+    min-width: 1280px;
+    height: 310px;
+    background-color: #1F1815;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenWrap
+{
+    min-width: 1200px;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #0e3a26;/*Borrar*/
+}
+.boxColumn 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1Flex
+{
+    display: flex;
+    flex-direction: column;
+    gap:16px; 
+}
+.footerLogo
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color:#FFFFFF;
+    width: 186px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.33px;
+    margin-bottom: 16px;
+}
+.flexColumn
+{
+    display:flex;
+    flex-direction: column;
+}
+.footerLogo p
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.4628px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.footerLogo img
+{
+    width: 20.53px;
+    height: 24.93px;
+}
+.boxImg
+{
+    width: 20.53px;
+    height: 24.93px;
+}
+.footer1H3
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.footerBox1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #515051;
+    border-radius: 4px;
+    width: 182px;
+    height: 48px;
+    gap:15px;
+    margin-bottom: 16px;
+}
+.footerBox1 img
+{
+    width: 24px;
+    height: 24px;
+}
+.footerBox1 p
+{
+    color: #ffffff;
+}
+.footerBox2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 48px;
+    background: #515051;
+    border-radius: 4px;
+    gap:15px;
+}
+.footerBox2 img
+{
+    width: 24px;
+    height: 24px; 
+}
+.footerBox2 p
+{
+    color: #ffffff;
+}
+.boxCopy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B2A2B;
+    color: #ffffff;
+    height: 40px;
+    padding: 12px 0px;
+}
+.copyPrf
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.art2Footer
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   gap:16px; 
+}
+.art2Footer a
+{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+
+height: 16px;
+}
+.art3Footer
+{
+   display: flex;
+   flex-direction: column;
+   gap:16px; 
+}
+
+
+
+
+/*-------------Finaliza Section - ***Footer***------------*/

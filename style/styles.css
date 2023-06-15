@@ -918,7 +918,7 @@ align-items: center;
     
     display: flex;
     flex-direction: column;
-    background-color: #0e3a26;/*Borrar*/
+    
 }
 .boxColumn 
 {
@@ -1020,12 +1020,51 @@ align-items: center;
 {
     color: #ffffff;
 }
+.subboxFooter
+{
+    display: flex;
+    gap:127px;
+    position: relative;
+    right: 20%;
+}
+.art2Footer
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+   gap:16px; 
+}
+.art2Footer a
+{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+height: 16px;
+}
+.art3Footer
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    gap:16px; 
+}
+.art3Footer a
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
+}
 .boxCopy
 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2B2A2B;
+    width: 100%;
     color: #ffffff;
     height: 40px;
     padding: 12px 0px;
@@ -1036,33 +1075,4 @@ align-items: center;
     font-size: 14px;
     line-height: 16px;
 }
-
-.art2Footer
-{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   height: 100%;
-   gap:16px; 
-}
-.art2Footer a
-{
-    
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 16px;
-
-height: 16px;
-}
-.art3Footer
-{
-   display: flex;
-   flex-direction: column;
-   gap:16px; 
-}
-
-
-
-
 /*-------------Finaliza Section - ***Footer***------------*/

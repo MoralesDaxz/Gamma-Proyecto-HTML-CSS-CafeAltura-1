@@ -1,3 +1,4 @@
+/* #region - Clear CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,32 +42,13 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
-/*---------------------------------------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, summary,
-time, mark, audio, video
-{
-margin: 0;
-padding: 0;
-border: 0;
- /* 1rem = 16px
-    1px  = 10px
-    para declarar rem en el documento entonces reduciremos a 62.5% el tamaño de letra raiz*/
-}
 a
 {
     text-decoration: none;
     color: #FFFFFF;
 }
+/* #endregion */
+/* #region - Body */
 body
 {
     font-family: 'Outfit', sans-serif;
@@ -75,6 +57,8 @@ body
 {
     min-width: 1280px; /**********/
 }
+/* #endregion - Body*/
+/* #region - Header "Figma - Hero"*/
 header
 {
     padding: 12px 40px;
@@ -104,7 +88,6 @@ header
     width: 20.53px;
     height: 24.93px;
 }
-
 .wrapHeader
 {
     display: flex;
@@ -121,33 +104,6 @@ header
     flex-direction: row;
     align-items: center;
 }
-/* #wrapLink1
-{
-    width: 61px;
-    height: 32px;
-}
-#wrapLink2
-{
-    width: 89px;
-    height: 32px;
-}
-#wrapLink3
-{
-    width: 111px;
-    height: 32px;
-}
-#wrapLink4
-{
-    width: 112px;
-    height: 32px;
-}  
-#wrapLink5
-{
-    width: 75px;
-    height: 32px;
-}
- Para futuras modificaciones personalizadas de cada enlace*/
-
 .frmHeader
 {
     display: flex;
@@ -191,7 +147,8 @@ header
     height: 24px;
     margin: 20px auto 20px 78.05px;
 }
-/*------------------Finaliza HEADER----------------*/
+/* #endregion - Header - Figma "Hero" */
+/* #region - Main - Section1 - "Figma - Cards" */
 #contenMain
 {
     min-width: 1280px; /**********/
@@ -282,7 +239,8 @@ header
     padding: 0;
     background-size: cover;
 }
-/*------------------Finaliza Section1 - MAIN----------------*/
+/* #endregion - Main - "Figma - Cards" */
+/* #region - Main - Section2 - "Figma - Cards Wrapper" */
 #cardSection2
 {
     background-image:url(/img/Cards.jpg);
@@ -392,7 +350,8 @@ header
     width: 64px;
     height: 64px;  
 }
-/*<!-------------Finaliza Section2 - CARD WRAPPER - Main - ------->*/
+/* #endregion - Main - Seccion2 - "Figma - Cards Wrapper" */
+/* #region - Main - New Bags - "Figma - Cards" */
 #contenNew
 {
     min-width: 1280px;
@@ -467,7 +426,6 @@ header
     flex-direction: column; 
     align-items: center; 
     padding-top: 24px;
-   
 }
 .bagsHover:hover
 {   
@@ -476,7 +434,6 @@ header
 .bagsHover:hover a
 {
    background-color: #2A5B45; 
-   cursor: pointer;
 }  
 .newBottom
 {
@@ -501,7 +458,8 @@ header
     height: 8px;
     justify-items: center;
 }
-/*-------------Finaliza Section - CARD NEW - Main------------*/
+/* #endregion - Main - New Bags - "Figma - Cards" */
+/* #region - Main - FAQ - "Figma - FAQ" */
 .contenFaq
 {
     background-color: #2A5B45;
@@ -600,24 +558,30 @@ header
     color: #FFFFFF;
     text-decoration: underline;
 }
-/*-------------Finaliza Section - CARD NEW - Main------------*/
+/* #endregion - Main - FAQ - "Figma - FAQ" */
+/* #region - Main - Feature - "Figma - Feature Section" */
 #contenFeature
 {
     min-width: 1280px;
     background-color: #F7F5F3;
-    padding: 44.61px 40px 45.39px 40px;
+    padding: 40px;
+    justify-content: space-between;
 }
 #featureBox
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .featureArt
 {
+    border: 3px solid #000000;
+    /* width: 457px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    background-color: #D1D5DB; */
+    
 }
 .featureH3
 {
@@ -653,13 +617,16 @@ header
     font-size: 14px;
     line-height: 16px;
     text-decoration: underline;
+    color: #000000;
 }
 .featureImg
 {
     width: 588px;
     height: 390px;
+    display: flex;
 }
-/*-------------Finaliza Section - Feature - Main------------*/
+/* #endregion - Main - Feature - "Figma - Feature Section" */
+/* #region - Main - Split/Formulario - "Figma - Split" */
 #splitConten
 {
    min-width: 1280px; 
@@ -671,14 +638,16 @@ header
     display: flex;
     justify-content: space-between;
     padding:0px 40px 0px 40px;
+    gap:24px;
+
 }
 .splitArt
 {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-top: 116px;
-    margin-right: 24px;
+    justify-content: center;
+    
 }
 
 .splitH3
@@ -767,8 +736,6 @@ header
     color: #6B7280;
     width: 588px;
     height: 24px;
-    
-    
 }
 #splitPrf7
 {
@@ -788,6 +755,7 @@ header
     line-height:24px;
     text-decoration: underline;
 }
+/*--------> 2/2 Formulario--------*/
 #contenForm
 {   
     background-color: #FFFFFF;
@@ -799,6 +767,8 @@ header
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    gap:16px;
+    width:470px;
     padding: 32px 32px 32px 48px;
 }
 .boxForm label
@@ -816,11 +786,7 @@ header
     background-color: #FFFFFF;
     border: 1px solid #D1D5DB;
     border-radius: 6px;
-    margin-bottom: 24px;
-}
-.formInput1:focus, .formInput2:focus,.formInput3:focus,.formInput4:focus
-{
-outline: none;
+   
 }
 .formInput2
 {
@@ -829,41 +795,64 @@ outline: none;
     background-color: #FFFFFF;
     border: 1px solid #D1D5DB;
     border-radius: 6px;
-    margin-bottom: 24px;
 }
-#selectForm
+.boxSelect /*Conten principal TLF*/
 {
-    color:#374151;
-    outline: none;/*quitar borde negro de input*/
-    border:none;
-}
-.formInput3
-{
-    border:none;
-}
-.boxSelect
+   
+    width: 474px; /*para alinear en vertical con los demas, se aplican 4px mas*/
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    outline: none;
+} 
+.flexSelector
 {
     display: flex;
     align-items: center;
-    border: solid 1px #D1D5DB;
+    justify-content: flex-start;
+}
+#selectForm /*Conten de seccion 1 TLF*/
+{
+    color:#374151;
     background-color: #FFFFFF;
-    border-radius: 6px;
-    width: 470px;
     height: 34px;
-    margin-bottom: 24px;
-} 
+    outline: none; /*quitar borde negro de input*/
+    border: none;
+}
+.formInput3 /*Conten de seccion 2 TLF*/
+{
+    width: 420px;/*428px */
+    height: 34px;
+    outline: none; /*quitar borde negro de input*/
+    border: none;
+}
 .formInput4
 {
     width: 470px;
     background-color: #FFFFFF;
     border: 1px solid #D1D5DB;
     border-radius: 6px;
+    outline: none;
+}
+form input
+{
+    outline: none; 
+}
+.marcoInput:hover
+{
+    border: 1px solid #9B9EA3;
+    border-radius: 6px;
+    
+}
+.marcoInput:focus-within
+{
+    border: 2px solid #3F8F6B;
+    border-radius: 6px; 
 }
 .formCheck
 {
-margin-top: 24px;
-display: flex;
-align-items: center;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
 }
 .ltextForm
 {
@@ -901,7 +890,8 @@ align-items: center;
     cursor: pointer;
     margin-top: 28px;
 }
-/*-------------Finaliza Section - Form - ***Main***------------*/
+/* #endregion - x Main x - Split - "Figma - Split" */
+/* #region - Footer - Footer - "Figma - Footer" */
 .contenFooter
 {
     min-width: 1280px;
@@ -915,10 +905,8 @@ align-items: center;
 .contenWrap
 {
     min-width: 1200px;
-    
     display: flex;
     flex-direction: column;
-    
 }
 .boxColumn 
 {
@@ -1032,16 +1020,15 @@ align-items: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
-  
    gap:16px; 
 }
 .art2Footer a
 {
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 16px;
-height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
 }
 .art3Footer
 {
@@ -1075,4 +1062,4 @@ height: 16px;
     font-size: 14px;
     line-height: 16px;
 }
-/*-------------Finaliza Section - ***Footer***------------*/
+/* #endregion - x Footer x - Footer - "Figma - Footer" */

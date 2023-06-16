@@ -11,11 +11,13 @@
     <title>Home</title>
 </head>
 <body id="contenBody">
+<!--#region - Header "Figma - Hero"--> 
 <header>
-<div class="boxHeader">
-    <p >cafedealtura.com</p>
+    <a href="#" class="boxHeader"> <!--Div reemplazado con <a>-->
+    <p>cafedealtura.com</p>
     <img class="boxImg" src="/img/Coffe.svg" alt="Logo">
-</div>
+    </a>
+
 <div class="wrapHeader">
     <a id="wrapLink1" href="#">Tienda</a>
     <a id="wrapLink2" href="#">Suscripción</a>
@@ -26,13 +28,14 @@
 <div class="frmHeader">
         <img class="frmIcon" src="/img/Icon.svg" alt="iconTlf">
         <p class="frmTlf"> +34 919 49 05 18</p>
-        <a class="frmInicio">Iniciar sesión<a/>
+        <a class="frmInicio" href="#">Iniciar sesión<a/>
 </div>
-<div class="carImg">
+<a href="#" class="carImg">
     <img src="/img/Carr.svg">
-</div>
+</a>
 </header>
-<!------------------Finaliza HEADER---------------->
+<!--#endregion - Header "Figma - Hero"--> 
+<!--#region - Main - Section1 - "Figma - Cards"-->
 <main id="contenMain">
     <section class="mainSection1">
         <article class="artSection1">
@@ -46,15 +49,17 @@
                 <p>Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que puedas viajar desde la comodidad de tu hogar.</p>
             </div>
             <div id="linkArticle">
-                <a id="mainLink1">Descubrir orígenes</a>
-                <a id="mainLink2">Comprar café</a>
+                <a href="#" id="mainLink1">Descubrir orígenes</a>
+                <a href="#" id="mainLink2">Comprar café</a>
             </div>
         </article>
+<!--Imagen-->
         <article id="mainImg">
                 <img src="/img/Main-cafe.png" alt="Main-imagen">
         </article>
     </section>
-<!------------------Finaliza Section1 - MAIN---------------->   
+    <!--#endregion - Main - Section1 - "Figma - Cards"-->
+<!--#region - Main - Section2 - "Figma - Cards Wrapper"-->
     <section id="cardSection2">
         <div class="cardTitle">
             <h2>Café con las mejores condiciones</h2>
@@ -83,7 +88,8 @@
             </div>
         </article>
     </section>
-<!-------------Finaliza Section2 - CARD WRAPPER - Main------------>
+    <!--#endregion - Main - Section2 - "Figma - Cards Wrapper"-->
+<!--#region - Main - New Bags - "Figma - Cards" -->
 <section id="contenNew">
     <div>
         <h2 class="titleNew">Novedades</h2>
@@ -93,33 +99,34 @@
             <img src="/img/Coffee-bag-green.png" class="bagsImg" alt="Coffe-Green">
             <p class="bags1Prf">Costa Rica Tarrazú</p>
             <p class="bags2Prf">9,00 €</p>
-            <a class="bagsLink">Añadir</a>
+            <a href="#" class="bagsLink">Añadir</a>
         </div>
         <div class="bagsHover bagsBorde">
             <img src="/img/Coffee-bag-red.png" class="imgBags" alt="Coffe-Red">
             <p class="bags1Prf">Colombia Los Naranjos</p>
             <p class="bags2Prf">9,00 €</p>
-            <a class="bagsLink">Añadir</a>
+            <a href="#" class="bagsLink">Añadir</a>
         </div>
         <div  class="bagsHover bagsBorde">
             <img src="/img/Coffee-bag-yellow.png" class="imgBags" alt="Coffe-Yellow">
             <p class="bags1Prf">Laos Amanecer</p>
             <p class="bags2Prf">9,00 €</p>
-            <a class="bagsLink">Añadir</a>
+            <a href="#" class="bagsLink">Añadir</a>
         </div>
         <div class="bagsHover bagsBorde">
             <img src="/img/Coffee-bag-purple.png" class="imgBags" alt="Coffe-Purple">
             <p class="bags1Prf">Etiopía Yrgacheff</p>
             <p class="bags2Prf">9,00 €</p>
-            <a class="bagsLink">Añadir</a>
+            <a href="#" class="bagsLink">Añadir</a>
         </div>
     </article>
-    <div class="newBottom">
+    <a href="#" class="newBottom">
         <p class="bottPrf">Ver todos</p>
         <img class="bottImg" src="/img/flecha-derecha-negra.svg" alt="fecha-Derecha">
-    </div>
+    </a>
 </section>
-<!-------------Finaliza Section - CARD NEW - Main------------>
+<!--#endregion - Main - New Bags - "Figma - Cards" -->
+<!--#region - Main - FAQ - "Figma - FAQ"-->
 <section class="contenFaq">
         <div class="titleFaq">
             <h2>Preguntas frecuentes</h2>
@@ -148,21 +155,22 @@
             </div>
         </article>
     </div>      
-    <div class="labelBott">
+    <a href="#" class="labelBott">
         <p class="lbottPrf"> Resolvemos tus dudas</p>
         <img src="/img/fqa-flecha-blanca-derecha.svg" alt="FQA-Flecha">
-    </div>
+    <a/>
 </section>
-<!-------------Finaliza Section - FAQ - Main------------>
+<!--#endregion - Main - FAQ - "Figma - FAQ"-->
+<!--#region - Main - Feature - "Figma - Feature Section"-->
 <section id="contenFeature">
     <div id="featureBox">
         <article class="featureArt">
                 <h3 class="featureH3">Pruébalo en nuestro coffee shop</h3>
                 <p class="featurePrf">Visita nuestra cafetería en el centro de la ciudad para probar los granos de café antes de hacer tu pedido y llévate un descuento</p>
-                <div class="fboxTxt">
+                <a href="#" class="fboxTxt">
                     <p class="featureTxt">Cómo llegar</p>
                     <img src="/img/fs-flecha-derecha-negra.svg" alt="Feature-Flecha">
-                </div>
+                </a>
         </article>
 
         <article>
@@ -170,7 +178,8 @@
         </article>
     </div>
 </section>
-<!-------------Finaliza Section - Feature - Main------------>
+<!--#endregion - Main - Feature - "Figma - Feature Section"-->
+<!--#region - Main - Split/Formulario - "Figma - Split"-->
 <section id="splitConten">
 <div class="splitBox">
     <article class="splitArt">
@@ -180,8 +189,6 @@
         <p id="splitPrf3">742 Evergreen Terrace</p>
         <div>
         <p id="splitPrf4">Springfield, OR 12345</p>
-        
-        
         <div class="boxPrf5">
             <img src="/img/split-phone.svg" alt="Phone-Split">
             <p id="splitPrf5">+1 (555) 123-4567</p>
@@ -191,33 +198,45 @@
             <p id="splitPrf6">support@example.com</p>
         </div>
         
-        <p id="splitPrf7">¿Buscas un trabajo? <a>Ver nuestras ofertas.</a></p>
+        <p id="splitPrf7">¿Buscas un trabajo? <a href="#">Ver nuestras ofertas.</a></p>
     </article>
+                     <!--Formulario-->
     <article id="contenForm">
         <form class="boxForm">
-            <div>
-                <label for="name">Nombre completo</label><br>
-                <input name="name" class="formInput1"><br>
+            <div >
+                <label for="name">Nombre completo</label> 
+                    <div class="marcoInput">
+                    <input name="name" class="formInput1">
+                    </div>
             </div>
 
             <div>
-                <label for="email">Email</label><br>
-                <input name="email" class="formInput2"><br>               
+                <label for="email">Email</label>
+                    <div class="marcoInput">
+                    <input name="email" class="formInput2">  
+                    </div>             
             </div>
-            <label for="tlf">Teléfono</label>
-            <div class="boxSelect">
+            <div>
+            <label id="labelTlf" for="tlf">Teléfono</label>
+            <div class="boxSelect ">
+                <div class="flexSelector marcoInput">
                 <select id="selectForm">
                 <option value="ES" title="España (+34)">ES</option>
                 <option value="CO" title="Colombia (+57)">CO</option>
                 <option value="EU" title="Estados Unidos (+01)">EU</option>
                 <option value="VE" title="Venezuela (+58)">VE</option>
                 </select>
-                <input name="tlf" class="formInput3" placeholder="+34 (555) 987-6543"><br><br>
+                <input name="tlf" class="formInput3" placeholder="+34 (555) 987-6543">
             </div>
-            <textarea class="formInput4" id="" cols="30" rows="6" placeholder="¿En qué podemos ayudarte"></textarea><br>
+            </div>
+        </div>
+        <div class="marcoInput">
+            <textarea class="formInput4 " cols="30" rows="6" placeholder="¿En qué podemos ayudarte"></textarea>
+        </div>
+            
             <div class="formCheck">
                 <input type="checkbox">
-                <p class="ltextForm">Acepto la <a>Política de Privacidad</a> y los <a>Términos y condiciones.</a></p><br>
+                <p class="ltextForm">Acepto la <a href="#">Política de Privacidad</a> y los <a href="#">Términos y condiciones.</a></p>
             </div>
             
             <input class="enviarForm" type="submit" value="Enviar">
@@ -227,7 +246,8 @@
 </div>
 </section >
 </main>
-<!-------------Finaliza Section - Split - Main------------>
+<!--#endregion - x Main x - Split/Formulario - "Figma - Split"-->
+<!--#region - Footer - Footer - "Figma - Footer"-->
 <footer class="contenFooter">
     <div class="contenWrap">
         <div class="footerLogo">
@@ -239,31 +259,31 @@
                 <article class="flexColumn">  
                   
                     <h3 class="footer1H3">Te ayudamos en</h3>
-                    <div class="footerBox1">
+                    <a href="" class="footerBox1">
                         <img src="/img/footer-phone.svg" alt="Telefono - Footer">
                         <p class="footer1Tlf">+34 919 49 05 18</p>
-                    </div>
-                    <div class="footerBox2">
+                    </a>
+                    <a href="" class="footerBox2">
                         <img src="/img/footer-email.svg" alt="Correo - Footer">
                         <p class="footer1Correo">hola@cafedealtura.com</p>
-                    </div>
+                    </a>
                     </article>
             </div>
         <div class="subboxFooter">
             <div>
                 <article class="art2Footer">
-                    <a>Tienda</a>
-                    <a>Suscripción</a>
-                    <a>Para empresas</a>
-                    <a>Sobre nosotros</a>
-                    <a>Contacto</a>
+                    <a href="#">Tienda</a>
+                    <a href="#">Suscripción</a>
+                    <a href="#">Para empresas</a>
+                    <a href="#">Sobre nosotros</a>
+                    <a href="#">Contacto</a>
                 </article>
             </div>
             <div>
                 <article class="art3Footer">
-                    <a>Política de privacidad</a>
-                    <a>Política de cookies</a>
-                    <a>Términos y condiciones</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Política de cookies</a>
+                    <a href="#">Términos y condiciones</a>
                 </article>
             </div>
         </div>
@@ -275,7 +295,7 @@
         <p class="copyPrf">Todos los derechos reservados - Café de Altura SL - 2022</p>
     </div>
     </section>
-
-<!-------------Finaliza Section - Footer------------>   
+    <!--#endregion - x Footer x - "Figma - Footer"--> 
 </body>
+
 </html>

@@ -58,7 +58,7 @@ body
     min-width: 1280px; /**********/
 }
 /* #endregion - Body*/
-/* #region - Header "Figma - Hero"*/
+/* #region - Header            "Figma - Hero"*/
 header
 {
     padding: 12px 40px;
@@ -148,7 +148,7 @@ header
     margin: 20px auto 20px 78.05px;
 }
 /* #endregion - Header - Figma "Hero" */
-/* #region - Main - Section1 - "Figma - Cards" */
+/* #region - Main - Section1   "Figma - Cards" */
 #contenMain
 {
     min-width: 1280px; /**********/
@@ -240,7 +240,7 @@ header
     background-size: cover;
 }
 /* #endregion - Main - "Figma - Cards" */
-/* #region - Main - Section2 - "Figma - Cards Wrapper" */
+/* #region - Main - Section2   "Figma - Cards Wrapper" */
 #cardSection2
 {
     background-image:url(/img/Cards.jpg);
@@ -351,7 +351,7 @@ header
     height: 64px;  
 }
 /* #endregion - Main - Seccion2 - "Figma - Cards Wrapper" */
-/* #region - Main - New Bags - "Figma - Cards" */
+/* #region - Main - New Bags   "Figma - Cards" */
 #contenNew
 {
     min-width: 1280px;
@@ -459,7 +459,7 @@ header
     justify-items: center;
 }
 /* #endregion - Main - New Bags - "Figma - Cards" */
-/* #region - Main - FAQ - "Figma - FAQ" */
+/* #region - Main - FAQ        "Figma - FAQ" */
 .contenFaq
 {
     background-color: #2A5B45;
@@ -540,7 +540,6 @@ header
 }
 .labelBott
 {
-    width: 178px;
     height: 24px;
     display: flex;
     align-items: center;
@@ -559,7 +558,7 @@ header
     text-decoration: underline;
 }
 /* #endregion - Main - FAQ - "Figma - FAQ" */
-/* #region - Main - Feature - "Figma - Feature Section" */
+/* #region - Main - Feature    "Figma - Feature Section" */
 #contenFeature
 {
     min-width: 1280px;
@@ -574,14 +573,10 @@ header
 }
 .featureArt
 {
-    border: 3px solid #000000;
-    /* width: 457px;
+    width: 457px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    background-color: #D1D5DB; */
-    
 }
 .featureH3
 {
@@ -626,7 +621,7 @@ header
     display: flex;
 }
 /* #endregion - Main - Feature - "Figma - Feature Section" */
-/* #region - Main - Split/Formulario - "Figma - Split" */
+/* #region - Main - Split/Form "Figma - Split" */
 #splitConten
 {
    min-width: 1280px; 
@@ -647,7 +642,6 @@ header
     flex-direction: column;
     justify-items: center;
     justify-content: center;
-    
 }
 
 .splitH3
@@ -814,16 +808,17 @@ header
 {
     color:#374151;
     background-color: #FFFFFF;
-    height: 34px;
+    height: 32px;
     outline: none; /*quitar borde negro de input*/
     border: none;
 }
 .formInput3 /*Conten de seccion 2 TLF*/
 {
-    width: 420px;/*428px */
+    width: 100%;/*428px */
     height: 34px;
     outline: none; /*quitar borde negro de input*/
     border: none;
+    background-color: transparent;
 }
 .formInput4
 {
@@ -845,6 +840,7 @@ form input
 }
 .marcoInput:focus-within
 {
+    /* outline: auto #3F8F6B;  Asi tambien se puede*/ 
     border: 2px solid #3F8F6B;
     border-radius: 6px; 
 }
@@ -891,7 +887,7 @@ form input
     margin-top: 28px;
 }
 /* #endregion - x Main x - Split - "Figma - Split" */
-/* #region - Footer - Footer - "Figma - Footer" */
+/* #region - Footer - Footer   "Figma - Footer" */
 .contenFooter
 {
     min-width: 1280px;

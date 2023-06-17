@@ -238,7 +238,7 @@ header
 /* #region - Main - Section2   "Figma - Cards Wrapper" */
 #cardSection2
 {
-    background-image:url(/img/home/Cards.jpg);
+    background: url(../img/home/Cards.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

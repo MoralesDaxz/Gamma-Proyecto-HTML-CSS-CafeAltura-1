@@ -156,7 +156,7 @@ header
     justify-content:  space-between;
     left: 40px;
     right: 40px;
-    background-color: #E3DED7;
+    background-color: rgba(227, 222, 215, 0.3);
     height: 486px;
     min-width: 1280px; /**********/
     padding: 48px 40px;
@@ -437,6 +437,7 @@ header
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    width: 101px;
 }
 .bottPrf
 {
@@ -536,6 +537,7 @@ header
 .labelBott
 {
     height: 24px;
+    width: 178px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -595,6 +597,8 @@ header
 }
 .fboxTxt
 {
+    width: 118px;
+    height: 24px;
     display: flex;
     gap: 19px;
     align-items: center;
@@ -768,6 +772,11 @@ header
     line-height: 16px;
     color:#374151;
 }
+form input
+{
+    border:none;
+    outline: none;
+}
 .formInput1
 {
     width: 470px;
@@ -819,23 +828,43 @@ header
 {
     width: 470px;
     background-color: #FFFFFF;
-    border: 1px solid #D1D5DB;
     border-radius: 6px;
+    border: none;
     outline: none;
 }
-form input
+.marcoInput
 {
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;   
     outline: none; 
+}
+.formInput4, .formInput4::placeholder
+{
+    font-family: "Outfit";
 }
 .marcoInput:hover
 {
     border: 1px solid #9B9EA3;
     border-radius: 6px;
-    
 }
 .marcoInput:focus-within
 {
-    /* outline: auto #3F8F6B;  Asi tambien se puede*/ 
+    border: 2px solid #3F8F6B;
+    border-radius: 6px; 
+}
+.marcoTextarea
+{
+    border: 2px solid #D1D5DB;
+    border-radius: 6px;   
+
+}
+.marcoTextarea:hover
+{
+    border: 1px solid #9B9EA3;
+    border-radius: 6px;
+}
+.marcoTextarea:focus-within
+{
     border: 2px solid #3F8F6B;
     border-radius: 6px; 
 }
@@ -880,6 +909,10 @@ form input
     border-style: hidden;
     cursor: pointer;
     margin-top: 28px;
+}
+.colorCheck:checked
+{
+    accent-color: #2A5B45;
 }
 /* #endregion - x Main x - Split - "Figma - Split" */
 /* #region - Footer - Footer   "Figma - Footer" */
